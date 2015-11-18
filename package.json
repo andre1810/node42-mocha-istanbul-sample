@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "npm start",
+    "start": "time node index.js",
     "test": "node --harmony node_modules/istanbul/lib/cli.js cover _mocha -- --reporter list --ui bdd"
   },
   "author": "André Hester <mail@andre-hester.de>",
