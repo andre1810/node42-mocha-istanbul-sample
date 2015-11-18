@@ -1,0 +1,19 @@
+{
+  "name": "node42-mocha-istanbul-sample",
+  "version": "1.0.0",
+  "description": "Sample project with istanbul and mocha on Node 4.2",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm start",
+    "test": "mocha --reporter list --ui bdd"
+  },
+  "author": "André Hester <mail@andre-hester.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
