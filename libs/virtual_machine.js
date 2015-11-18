@@ -19,6 +19,26 @@ class VirtualMachine {
     this.hostname = hostname;
   }
 
+  // /**
+  //  * Returns the id.
+  //  *
+  //  * @method id
+  //  * @return {String}
+  //  */
+  // get id() {
+  //   return this._id;
+  // }
+  //
+  // /**
+  //  * Sets the id.
+  //  *
+  //  * @method id
+  //  * @param  {String} id
+  //  */
+  // set id(id) {
+  //   this._id = id;
+  // }
+
   /**
    * Returns the hostname.
    *
